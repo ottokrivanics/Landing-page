@@ -58,5 +58,49 @@ body {
 button {
     width: 150px;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 8px;
+}
+
+.picture-placeholder {
+    width: 180px;
+    height: 180px;
+    border: solid rgb(55, 55, 194) 4px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+.pictures-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    gap: 8px;
+}
+
+#info {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.picture-subtext {
+    text-align: center;
+    flex-wrap: wrap;
 }
