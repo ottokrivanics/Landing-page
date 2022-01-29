@@ -59,6 +59,12 @@ button {
     width: 150px;
     height: 30px;
     margin-top: 8px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: solid #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .picture-placeholder {
@@ -103,4 +109,82 @@ button {
 .picture-subtext {
     text-align: center;
     flex-wrap: wrap;
+}
+
+.quote-section {
+    display: flex;
+    padding: 100px 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;    
+  }
+
+#author {
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+    align-self: flex-end;
+    margin-top: 0px;
+}
+
+#quote{
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 400px;
+    border: solid #3882F6 4px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    width: 1000px;
+    height: 150px;
+
+}
+
+#actionBtn {    
+        border: solid #F9FAF8;
+        font-weight: bold;
+        font-size: 16px;
+}
+
+.action-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.action-container {
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+
+}
+
+#call-to-action {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#action-subtext {
+    margin-top: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 120px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
